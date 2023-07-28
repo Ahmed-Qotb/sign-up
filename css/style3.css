@@ -1,0 +1,16 @@
+:root {
+    --main-color: #24353F;
+    --text-main: #17988D;
+}
+
+body{
+    background-color: var(--main-color);
+}
+
+.parent{
+    height: 100vh;
+}
+
+.parent p{
+    color: var(--text-main);
+}

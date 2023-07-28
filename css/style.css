@@ -1,0 +1,20 @@
+:root {
+    --main-color: #24353F;
+    --text-main: #17988D;
+}
+
+::placeholder {
+    color: white !important;
+  }
+
+body {
+    background-color: var(--main-color);
+}
+
+h1 {
+    color: var(--text-main);
+}
+
+.parent a:hover{
+text-decoration-line: underline !important;
+}
